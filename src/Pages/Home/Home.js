@@ -39,19 +39,19 @@ const Home = () => {
 					<ServiceCard
 						image={renalImage}
 						title='Renal transplant'
-						description='tetstdd tydtdttd dtdtd td'
+						description='Lorem ipsum dolor sit amet consectetur'
 					/>
 
 					<ServiceCard
 						image={laparascopyImage}
-						title='Renal transplant'
-						description='tetstdd tydtdttd dtdtd td'
+						title='Laparascopy'
+						description='Lorem ipsum dolor sit amet consectetur'
 					/>
 
 					<ServiceCard
 						image={surgeryImage}
-						title='Renal transplant'
-						description='tetstdd tydtdttd dtdtd td'
+						title='Open Heart Surgery'
+						description='Lorem ipsum dolor sit amet consectetur'
 					/>
 				</div>
 
