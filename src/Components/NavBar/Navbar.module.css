@@ -1,0 +1,42 @@
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: #ffffff; /* Replace with the color of your choice */
+}
+
+.logo {
+  height: 60px; /* Set the size of your logo */
+}
+
+.navItems {
+  display: flex;
+  gap: 20px; /* Adjust the space between nav items */
+}
+
+.navLink {
+  text-decoration: none;
+  color: #333333; /* Replace with the color of your choice */
+  font-weight: bold;
+  /* Add more styling such as font-size, hover effects, etc. */
+}
+
+.appointmentButton {
+  padding: 10px 20px;
+  background-color: #0056b3; /* Replace with the color of your choice */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* Add more styling such as hover effects, etc. */
+}
+
+/* Responsive adjustments if necessary */
+@media (max-width: 768px) {
+  .navItems {
+    display: none; /* Or adjust layout for mobile */
+  }
+
+  /* You can also add a hamburger menu icon here and toggle nav items visibility */
+}

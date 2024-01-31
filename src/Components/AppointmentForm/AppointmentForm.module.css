@@ -1,0 +1,63 @@
+.formCard {
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	margin: auto;
+	width: 50%;
+}
+
+.header h2 {
+	margin: 0;
+	color: #333;
+	font-size: 1em;
+	min-width: 500px;
+}
+
+.header h3 {
+	margin-top: 5px;
+	color: #555;
+	font-size: 1.25em;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+}
+
+.input,
+.textarea {
+	padding: 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	outline: none;
+}
+
+.input:focus,
+.textarea:focus {
+	border-color: #0056b3;
+}
+
+.textarea {
+	height: 100px;
+	/* Adjust height as needed */
+}
+
+.button {
+	padding: 10px;
+	margin-top: 20px;
+	background-color: #d4e3ff;
+	color: #000;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	border-radius: 50px;
+	width: 200px;
+	margin: 40px auto;
+}
+
+.button:hover {
+	background-color: #003d82;
+}

@@ -1,0 +1,502 @@
+.heroSection {
+	position: relative;
+	color: white;
+	text-align: center;
+	overflow: hidden;
+	/* This will ensure the video does not exceed the div's boundaries */
+	height: 70vh;
+}
+
+.videoBackground {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	/* Ensure the video stays in the background */
+}
+
+.HeroContent {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	z-index: 1;
+	bottom: 100px;
+	left: 150px;
+	gap: 20px;
+
+}
+
+.HeroButtons {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 20px;
+}
+
+.ServiceCardsWrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 50%;
+	margin: auto;
+}
+
+.HeroTitle {
+	color: #FFF;
+	font-size: 2.5em;
+}
+
+
+.title {
+	color: #FFF;
+}
+
+.ButtonPrimary {
+	border: 1px #FFF solid;
+	color: #FFF;
+	border-radius: 50px;
+	padding: 10px;
+	background-color: transparent;
+}
+
+.ButtonPrimaryBlack {
+	border: 1px #003C51 solid;
+	color: #003C51;
+	border-radius: 50px;
+	padding: 10px;
+	background-color: transparent;
+	width: 150px;
+	margin: auto;
+}
+
+.HeroSection {
+	height: 70vh;
+	background: #000;
+}
+
+.ButtonPrimary {}
+
+.ServicesSection {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	background-color: #e7ecf3;
+}
+
+.ButtonSecondary {
+	border: none;
+	color: #FFF;
+	background-color: transparent;
+}
+
+.SectionTitleText {
+	display: flex;
+	flex-direction: column;
+	color: #006b5d;
+}
+
+
+
+.confirmationBox {
+	border: 2px solid #0056b3;
+	padding: 20px;
+	margin-top: 20px;
+	/* Adjust as needed */
+	position: relative;
+}
+
+.title {
+	color: #0056b3;
+	font-size: 1.2em;
+	/* Adjust as needed */
+	font-weight: bold;
+	margin: 0;
+}
+
+.mainText {
+	color: #0056b3;
+	font-size: 2.5em;
+	/* Adjust as needed */
+	font-weight: bold;
+	line-height: 1.1;
+	margin: 10px 0;
+	/* Adjust as needed */
+}
+
+.subText {
+	color: #0056b3;
+	font-size: 1.5em;
+	/* Adjust as needed */
+	margin: 0;
+}
+
+.underline {
+	border-bottom: 3px solid #0056b3;
+	width: 70%;
+	/* Adjust as needed */
+	position: absolute;
+	bottom: 30%;
+	/* Adjust as needed */
+	left: 15%;
+	/* Adjust as needed */
+}
+
+.confirmationNote {
+	color: #333;
+	font-size: 0.8em;
+	/* Adjust as needed */
+	margin-top: 20px;
+	/* Adjust as needed */
+}
+
+.AppointmentSection {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+}
+
+.testimonialsSection {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #002855;
+	/* Replace with the actual color you want */
+	color: white;
+	padding: 40px 80px;
+	margin: auto;
+	/* Adjust the padding as needed */
+}
+
+.testimonialContent {
+	width: 60%;
+	/* Adjust width as needed */
+}
+
+.TestimonialContentWrapper{
+	width: 50%;
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+}
+
+.testimonialText {
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.rating {
+	color: #ffc107;
+	/* Gold color for stars */
+}
+
+.testimonialAuthor {
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.testimonialImage {
+	/* Adjust width as needed */
+	display: flex;
+	justify-content: flex-end;
+}
+
+.navigationButtons {
+	font-size: 2em;
+	/* Adjust size as needed */
+	cursor: pointer;
+	user-select: none;
+}
+
+.feedbackButtons {
+	display: flex;
+	gap: 10px;
+	/* Adjust the gap as needed */
+	margin-top: 20px;
+}
+
+.feedbackButton {
+	background-color: transparent;
+	border: none;
+	color: white;
+	cursor: pointer;
+	transition: color 0.3s ease;
+}
+
+.feedbackButton:hover {
+	color: #0056b3;
+	/* Color when hovered */
+}
+
+/* Adjustments for responsiveness */
+@media (max-width: 768px) {
+	.testimonialsSection {
+		flex-direction: column;
+		padding: 20px;
+	}
+
+	.testimonialContent,
+	.testimonialImage {
+		width: 100%;
+	}
+
+	.testimonialImage {
+		justify-content: center;
+		margin-top: 20px;
+	}
+
+	.navigationButtons {
+		font-size: 1.5em;
+	}
+}
+
+.healthDaysSection {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #f0f4f8;
+	/* Light grey background, adjust color as needed */
+	padding: 20px;
+	border-radius: 8px;
+	gap: 20px;
+}
+
+.eventCard,
+.calendarCard {
+	flex: 1;
+	background: url('https://placehold.co/600x400/png') no-repeat center center;
+	background-size: cover;
+	border-radius: 8px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.eventCard {
+	margin-right: 10px;
+	/* Adjust spacing as needed */
+}
+
+.calendarCard {
+	margin-left: 10px;
+	/* Adjust spacing as needed */
+}
+
+.eventContent,
+.calendarContent {
+	color: white;
+	/* Adjust text color as needed */
+}
+
+.eventTitle,
+.calendarTitle {
+	font-weight: bold;
+}
+
+.eventDate,
+.calendarDate {
+	font-size: 0.9em;
+}
+
+.eventDescription,
+.calendarDescription {
+	font-size: 0.8em;
+}
+
+.viewMoreButton {
+	align-self: center;
+	padding: 10px 20px;
+	background-color: #0056b3;
+	/* Adjust button color as needed */
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+/* Responsive adjustments if necessary */
+@media (max-width: 768px) {
+	.healthDaysSection {
+		flex-direction: column;
+	}
+
+	.eventCard,
+	.calendarCard {
+		width: 100%;
+		margin: 10px 0;
+	}
+}
+
+
+.locationsSection {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 20px;
+	/* Adjust the gap between the items as needed */
+	margin: 40px 0;
+	/* Space around the entire section */
+}
+
+.locationCard {
+	flex-basis: calc(33.333% - 20px);
+	/* Three cards per row minus the gap */
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	transition: transform 0.3s ease-in-out;
+}
+
+.locationCard:hover {
+	transform: translateY(-5px);
+}
+
+.locationImage {
+	width: 100%;
+	height: auto;
+	display: block;
+	background: url('https://placehold.co/600x400/png') no-repeat center center;
+	background-size: cover;
+}
+
+.locationTitle {
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	/* Semi-transparent overlay */
+	color: white;
+	text-align: center;
+}
+
+.locationsHeader {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+	/* Adjust as needed */
+}
+
+.locationsTitle {
+	font-size: 2em;
+	color: #333;
+}
+
+.locationsDescription {
+	font-size: 1em;
+	color: #666;
+}
+
+/* Responsive adjustments if necessary */
+@media (max-width: 768px) {
+	.locationCard {
+		flex-basis: calc(50% - 20px);
+		/* Two cards per row on smaller screens */
+	}
+}
+
+@media (max-width: 480px) {
+	.locationCard {
+		flex-basis: 100%;
+		/* One card per row on very small screens */
+	}
+}
+
+.footer {
+	background-color: #004d40;
+	/* Dark teal background, adjust color as needed */
+	color: white;
+	padding: 20px 40px;
+	/* Adjust the padding as needed */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.footerColumn {
+	margin: 10px;
+	flex: 1;
+	min-width: 140px;
+	/* Minimum width for responsiveness */
+}
+
+.footerTitle {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.footerLink {
+	color: white;
+	text-decoration: none;
+	line-height: 2;
+	/* Spacing between links */
+}
+
+.newsletterSignup {
+	flex-grow: 2;
+	/* Allows the newsletter section to be larger */
+}
+
+.newsletterTitle {
+	margin-bottom: 10px;
+}
+
+.emailInput {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+.subscribeButton {
+	padding: 10px 20px;
+	background-color: #00897b;
+	/* Teal color, adjust as needed */
+	border: none;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+}
+
+.socialIcons {
+	display: flex;
+	align-items: center;
+}
+
+.socialIcon {
+	margin: 0 10px;
+}
+
+.copyRight {
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	border-top: 1px solid #026e5f;
+	/* Lighter teal border, adjust as needed */
+	padding-top: 10px;
+}
+
+/* Responsive adjustments if necessary */
+@media (max-width: 768px) {
+	.footer {
+		flex-direction: column;
+	}
+
+	.footerColumn {
+		margin: 10px 0;
+	}
+
+	.newsletterSignup {
+		order: -1;
+		/* Places the newsletter signup above */
+	}
+
+	.socialIcons {
+		justify-content: center;
+		margin-top: 20px;
+	}
+}
